@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/readme/hero.webp" width="100%" alt="以项目真实生成的白玉云海天宫为背景，介绍 Yufei Tiangong Skill 东方巨构视觉导演">
+  <img src="https://raw.githubusercontent.com/captainyufei/yufei-tiangong-skill/main/assets/readme/hero.webp" width="100%" alt="以项目真实生成的白玉云海天宫为背景，介绍 Yufei Tiangong Skill 东方巨构视觉导演">
 </p>
 
 <p align="center">
@@ -15,12 +15,12 @@
 这不是一组只负责“写得华丽”的提示词模板。Skill 会先固定唯一核心巨构、机位、空间层级、人物比例、光向与尺度证据，再把它们编译成可执行提示词。
 
 <p align="center">
-  <img src="./assets/readme/showcase-colonnade.jpg" width="100%" alt="东方天宫巨柱廊，展示柱列递减、统一透视与巨构尺度">
+  <img src="https://raw.githubusercontent.com/captainyufei/yufei-tiangong-skill/main/assets/readme/showcase-colonnade.jpg" width="100%" alt="东方天宫巨柱廊，展示柱列递减、统一透视与巨构尺度">
 </p>
 
 <p align="center">
-  <img src="./assets/readme/showcase-distant-pavilion.jpg" width="49%" alt="听雨天阁远距巨构，展示远而仍巨的主体组织">
-  <img src="./assets/readme/showcase-interior.jpg" width="49%" alt="云阙内景，展示室内框景、空间层级与天外巨构">
+  <img src="https://raw.githubusercontent.com/captainyufei/yufei-tiangong-skill/main/assets/readme/showcase-distant-pavilion.jpg" width="49%" alt="听雨天阁远距巨构，展示远而仍巨的主体组织">
+  <img src="https://raw.githubusercontent.com/captainyufei/yufei-tiangong-skill/main/assets/readme/showcase-interior.jpg" width="49%" alt="云阙内景，展示室内框景、空间层级与天外巨构">
 </p>
 
 > 展示图来自本项目的真实生成结果。模型与随机性会影响最终画面；Skill 提供的是结构化控制与失败修正方法，不承诺每次生成完全一致。
@@ -28,13 +28,13 @@
 ## 效果视频
 
 <p align="center">
-  <a href="./assets/readme/video/tiangong-demo.mp4">
-    <img src="./assets/readme/video/tiangong-preview.gif" width="100%" alt="《天宫旧约》东方巨构效果视频动态预览，点击观看无音乐完整版本">
+  <a href="https://raw.githubusercontent.com/captainyufei/yufei-tiangong-skill/main/assets/readme/video/tiangong-demo.mp4">
+    <img src="https://raw.githubusercontent.com/captainyufei/yufei-tiangong-skill/main/assets/readme/video/tiangong-preview.gif" width="100%" alt="《天宫旧约》东方巨构效果视频动态预览，点击观看无音乐完整版本">
   </a>
 </p>
 
 <p align="center">
-  <a href="./assets/readme/video/tiangong-demo.mp4"><strong>▶ 点击观看 23 秒完整效果视频</strong></a>
+  <a href="https://raw.githubusercontent.com/captainyufei/yufei-tiangong-skill/main/assets/readme/video/tiangong-demo.mp4"><strong>▶ 点击观看 23 秒完整效果视频</strong></a>
   · 960×540 · H.264 · 无音乐
 </p>
 
@@ -56,7 +56,7 @@
 ## 工作方式
 
 <p align="center">
-  <img src="./assets/readme/workflow.svg" width="100%" alt="从参数锁定、视角路由、空间编译、尺度审计到工具适配的五步流程">
+  <img src="https://raw.githubusercontent.com/captainyufei/yufei-tiangong-skill/main/assets/readme/workflow.svg" width="100%" alt="从参数锁定、视角路由、空间编译、尺度审计到工具适配的五步流程">
 </p>
 
 每次任务会从以下模式中选择一个主模式：
@@ -191,6 +191,25 @@ yufei-tiangong-skill/
 - 没有可用生图或视频工具时，Skill 会返回完整提示词，不会假装已经生成。
 - 指定 Seedream 或其他提供方时，只使用当前接口明确支持的字段，不臆造模型参数。
 - 参考图只用于重建空间、比例、层级与光向，不复制界面、文字、水印或无关人物。
+
+## 联系作者
+
+使用问题、Bug 和功能建议，欢迎通过 [GitHub Issues](https://github.com/captainyufei/yufei-tiangong-skill/issues) 公开反馈。合作与其他交流也可以通过邮件联系：[`captainaigc@163.com`](mailto:captainaigc@163.com)。
+
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <strong>个人微信</strong><br><br>
+      <img src="https://raw.githubusercontent.com/captainyufei/yufei-tiangong-skill/main/assets/readme/contact/wechat-personal.png" width="220" alt="飞哥 AI 个人微信二维码"><br>
+      <sub>创作交流 · 添加请备注「天宫 Skill」</sub>
+    </td>
+    <td align="center" width="50%">
+      <strong>企业微信</strong><br><br>
+      <img src="https://raw.githubusercontent.com/captainyufei/yufei-tiangong-skill/main/assets/readme/contact/wecom.png" width="220" alt="飞哥 AI 企业微信二维码"><br>
+      <sub>项目合作 · 添加请备注「天宫 Skill」</sub>
+    </td>
+  </tr>
+</table>
 
 ## 许可证
 
