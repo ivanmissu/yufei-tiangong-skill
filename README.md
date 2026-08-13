@@ -196,6 +196,12 @@ yufei-tiangong-skill/
 
 使用问题、Bug 和功能建议，欢迎通过 [GitHub Issues](https://github.com/captainyufei/yufei-tiangong-skill/issues) 公开反馈。合作与其他交流也可以通过邮件联系：[`captainaigc@163.com`](mailto:captainaigc@163.com)。
 
+<p align="center">
+  <a href="https://x.com/yufei_ai1">
+    <img src="https://raw.githubusercontent.com/captainyufei/yufei-tiangong-skill/main/assets/readme/contact/x-card.svg" width="520" alt="在 X 上关注 Captain 宇飞 AI，账号 yufei_ai1">
+  </a>
+</p>
+
 <table>
   <tr>
     <td align="center" width="50%">

@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="720" height="150" viewBox="0 0 720 150"
+     role="img" aria-labelledby="title desc">
+  <title id="title">在 X 上关注 Captain 宇飞 AI</title>
+  <desc id="desc">东方巨构风格的作者卡片，账号为 yufei_ai1。</desc>
+
+  <defs>
+    <linearGradient id="jade-sky" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F7F8F5"/>
+      <stop offset="1" stop-color="#EDF1EF"/>
+    </linearGradient>
+    <clipPath id="card-clip">
+      <rect width="720" height="150" rx="22"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#card-clip)">
+    <rect width="720" height="150" fill="url(#jade-sky)"/>
+
+    <path d="M0 112 C88 87 156 133 248 108 C334 85 409 124 500 103 C581 84 642 105 720 91 L720 150 L0 150 Z"
+          fill="#DCE5E1" opacity="0.78"/>
+    <path d="M-14 126 C74 101 151 143 244 119 C335 95 414 135 505 112 C587 92 650 115 738 99"
+          fill="none" stroke="#A8BBB4" stroke-width="1.4" opacity="0.82"/>
+    <path d="M-20 137 C69 114 151 151 244 131 C340 110 419 146 515 123 C600 103 659 126 742 112"
+          fill="none" stroke="#C25444" stroke-width="1" opacity="0.56"/>
+
+    <g transform="translate(34 28)">
+      <rect width="82" height="94" rx="12" fill="#17201E"/>
+      <rect x="7" y="7" width="68" height="80" rx="8" fill="none" stroke="#91AAA1" stroke-width="1"/>
+      <path d="M41 18 L52 34 L48 69 L41 82 L34 69 L30 34 Z" fill="#E8EEEB"/>
+      <path d="M41 18 L41 82 M30 34 L52 34 M34 69 L48 69" fill="none" stroke="#C25444" stroke-width="1.4"/>
+      <text x="41" y="65" text-anchor="middle"
+            font-family="Georgia, 'Songti SC', serif" font-size="30" font-weight="700" fill="#17201E">宇</text>
+    </g>
+
+    <g transform="translate(142 28)">
+      <text x="0" y="14"
+            font-family="ui-monospace, SFMono-Regular, Menlo, monospace"
+            font-size="13" font-weight="700" letter-spacing="2.8" fill="#6E7E78">FOLLOW THE CREATOR</text>
+      <text x="0" y="54"
+            font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', sans-serif"
+            font-size="29" font-weight="750" fill="#151B1A">Captain · 宇飞 AI</text>
+      <text x="0" y="87"
+            font-family="ui-monospace, SFMono-Regular, Menlo, monospace"
+            font-size="23" font-weight="650" fill="#4D625C">@yufei_ai1</text>
+      <text x="180" y="87"
+            font-family="ui-monospace, SFMono-Regular, Menlo, monospace"
+            font-size="11" letter-spacing="1.2" fill="#889690">X.COM / YUFEI_AI1</text>
+    </g>
+
+    <g transform="translate(620 38)" stroke-linecap="square">
+      <rect width="66" height="74" rx="14" fill="#151B1A"/>
+      <path d="M19 18 L49 56 M47 18 L17 56" stroke="#F4F6F3" stroke-width="7"/>
+      <path d="M18 18 L49 56" stroke="#C25444" stroke-width="2" opacity="0.9"/>
+    </g>
+  </g>
+
+  <rect x="0.75" y="0.75" width="718.5" height="148.5" rx="21.25"
+        fill="none" stroke="#91A29C" stroke-width="1.5"/>
+</svg>

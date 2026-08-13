@@ -1,7 +1,7 @@
 ---
 slug: yufei-tiangong-skill
 displayName: 东方巨构视觉导演
-version: 1.0.2
+version: 1.0.3
 summary: 将场景构想与视觉参考转译为具有明确视角、可验证尺度和统一光色的东方巨构图像及视频提示词
 license: MIT
 homepage: https://github.com/captainyufei/yufei-tiangong-skill
