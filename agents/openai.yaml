@@ -1,0 +1,4 @@
+interface:
+  display_name: "东方巨构"
+  short_description: "用视角路由稳定生成东方巨构静态图和图生视频提示词"
+  default_prompt: "使用 $yufei-tiangong-skill 将我的场景生成东方巨构图片，并适配当前可用的生图工具。"

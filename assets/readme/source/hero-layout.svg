@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="500" viewBox="0 0 1200 500" role="img" aria-labelledby="title desc">
+  <title id="title">Yufei Tiangong Skill</title>
+  <desc id="desc">以项目真实生成的白玉云海天宫为背景，介绍东方天宫巨构视觉导演 Agent Skill。</desc>
+  <defs>
+    <clipPath id="frame">
+      <rect width="1200" height="500" rx="28"/>
+    </clipPath>
+    <linearGradient id="left-shade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#071013" stop-opacity="0.96"/>
+      <stop offset="0.48" stop-color="#071013" stop-opacity="0.78"/>
+      <stop offset="0.76" stop-color="#071013" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#071013" stop-opacity="0.04"/>
+    </linearGradient>
+    <linearGradient id="bottom-shade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0.55" stop-color="#071013" stop-opacity="0"/>
+      <stop offset="1" stop-color="#071013" stop-opacity="0.58"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#a88750"/>
+      <stop offset="0.5" stop-color="#e0c58a"/>
+      <stop offset="1" stop-color="#9e7a43"/>
+    </linearGradient>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <!-- Transparent layout layer. Composite over ../showcase-jade-palace.jpg and publish hero.webp. -->
+    <rect width="1200" height="500" fill="url(#left-shade)"/>
+    <rect width="1200" height="500" fill="url(#bottom-shade)"/>
+
+    <g transform="translate(58 54)">
+      <rect width="300" height="34" rx="17" fill="#071013" fill-opacity="0.54" stroke="#e0c58a" stroke-opacity="0.48"/>
+      <text x="20" y="23" fill="#e0c58a" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="16" letter-spacing="2">ORIENTAL MEGASTRUCTURE · SKILL</text>
+
+      <text x="0" y="116" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, sans-serif" font-size="58" font-weight="750">Yufei Tiangong</text>
+      <text x="0" y="178" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, sans-serif" font-size="58" font-weight="750">Skill</text>
+      <rect x="0" y="203" width="78" height="4" rx="2" fill="url(#gold)"/>
+      <text x="0" y="254" fill="#edf3ef" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, sans-serif" font-size="29" font-weight="650">东方天宫巨构视觉导演</text>
+      <text x="0" y="296" fill="#c6d5d0" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, sans-serif" font-size="20">把一句构想，编译成可路由、可审计、可生成的画面</text>
+    </g>
+
+    <g transform="translate(58 426)" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="17">
+      <text x="0" y="0" fill="#e5c98e">01</text>
+      <text x="34" y="0" fill="#f4f7f5">ONE CORE</text>
+      <circle cx="154" cy="-6" r="2.5" fill="#d8bc80"/>
+      <text x="176" y="0" fill="#e5c98e">02</text>
+      <text x="210" y="0" fill="#f4f7f5">ONE VIEW</text>
+      <circle cx="330" cy="-6" r="2.5" fill="#d8bc80"/>
+      <text x="352" y="0" fill="#e5c98e">03</text>
+      <text x="386" y="0" fill="#f4f7f5">ONE LIGHT</text>
+    </g>
+
+    <g transform="translate(1018 50)">
+      <circle cx="62" cy="62" r="60" fill="#071013" fill-opacity="0.22" stroke="#e0c58a" stroke-width="1.5" stroke-opacity="0.72"/>
+      <circle cx="62" cy="62" r="48" fill="none" stroke="#ffffff" stroke-width="1" stroke-opacity="0.38"/>
+      <path d="M34 76 H90 M42 68 H82 M49 57 H75 M54 45 H70" fill="none" stroke="#e0c58a" stroke-width="3" stroke-linecap="round"/>
+    </g>
+  </g>
+</svg>
