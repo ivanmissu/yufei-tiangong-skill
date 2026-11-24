@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>九天之门 · 天宫巨构 2K 成片</title>
+<style>
+  :root{
+    --ink:#0b0f14; --panel:#131a22; --line:#243040;
+    --fog:#c9d6e0; --muted:#7d8fa1; --gold:#d8b26a; --jade:#9fc3bd;
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0; background:
+      radial-gradient(1200px 600px at 70% -10%, #1b2836 0%, transparent 60%),
+      radial-gradient(900px 500px at 10% 110%, #16212c 0%, transparent 55%),
+      var(--ink);
+    color:var(--fog);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:1180px;margin:0 auto;padding:44px 24px 80px}
+  header{margin-bottom:26px}
+  .eyebrow{
+    font-size:11px;letter-spacing:.28em;text-transform:uppercase;
+    color:var(--gold);margin-bottom:14px;
+  }
+  h1{
+    font-size:clamp(26px,4vw,40px);font-weight:600;margin:0 0 12px;
+    letter-spacing:.06em;line-height:1.25;
+  }
+  .sub{color:var(--muted);font-size:14px;line-height:1.75;margin:0}
+  .sub code{background:#1c2735;padding:1px 6px;border-radius:4px;color:var(--jade);font-size:12.5px}
+
+  .stage{
+    margin:34px 0 12px;border:1px solid var(--line);border-radius:14px;
+    overflow:hidden;background:#000;box-shadow:0 24px 60px -24px #000;
+  }
+  video{display:block;width:100%;height:auto;background:#000}
+
+  .bar{
+    display:flex;flex-wrap:wrap;gap:10px;align-items:center;
+    margin:16px 0 34px;
+  }
+  .btn{
+    appearance:none;border:1px solid var(--line);background:#17212c;color:var(--fog);
+    padding:10px 16px;border-radius:9px;font-size:13px;cursor:pointer;
+    transition:.18s;text-decoration:none;display:inline-flex;align-items:center;gap:8px;
+  }
+  .btn:hover{background:#1e2b39;border-color:#33455a}
+  .btn[aria-pressed="true"]{background:#20303f;border-color:var(--gold);color:#f0e2c4}
+  .btn .dim{color:var(--muted);font-size:11.5px}
+  .meta{margin-left:auto;color:var(--muted);font-size:12px;letter-spacing:.02em}
+
+  h2{
+    font-size:13px;letter-spacing:.2em;text-transform:uppercase;
+    color:var(--muted);font-weight:600;margin:0 0 16px;
+    padding-bottom:10px;border-bottom:1px solid var(--line);
+  }
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:14px}
+  .card{
+    background:var(--panel);border:1px solid var(--line);border-radius:11px;
+    padding:16px 18px;
+  }
+  .card .k{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);margin-bottom:9px}
+  .card .v{font-size:14.5px;line-height:1.6;color:#e6eef6}
+  .card .v small{display:block;color:var(--muted);font-size:12px;margin-top:5px}
+
+  .shot{
+    margin:34px 0 0;border:1px solid var(--line);border-radius:12px;overflow:hidden;
+  }
+  .shot img{display:block;width:100%;height:auto}
+  .cap{padding:12px 16px;background:var(--panel);color:var(--muted);font-size:12.5px}
+
+  footer{margin-top:56px;padding-top:22px;border-top:1px solid var(--line);color:var(--muted);font-size:12.5px;line-height:1.9}
+  footer b{color:var(--fog);font-weight:600}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <div class="eyebrow">yufei-tiangong-skill · 东方巨构视觉导演</div>
+    <h1>九天之门 · 天宫巨构</h1>
+    <p class="sub">
+      云海之上的朱红天门，白玉阶梯自前景没入云层，白衣旅人的身影小于门上的一颗门钉。<br>
+      视角锁定 <code>阙下侧望·门中重门</code>（超广角低机位仰视变体），运镜为<strong>完全锁镜</strong>，全部运动交给云海分层翻涌与光束呼吸。
+    </p>
+  </header>
+
+  <div class="stage">
+    <video id="player" controls autoplay muted loop playsinline
+           poster="tiangong-2k.jpg" preload="metadata">
+      <source id="src" src="tiangong-1080p.mp4" type="video/mp4">
+    </video>
+  </div>
+
+  <div class="bar">
+    <button class="btn" id="b1080" aria-pressed="true" onclick="pick('1080')">
+      <span>1080p</span><span class="dim">11 MB · 更省流</span>
+    </button>
+    <button class="btn" id="b2k" aria-pressed="false" onclick="pick('2k')">
+      <span>2K 母版</span><span class="dim">21 MB · 2560×1440</span>
+    </button>
+    <a class="btn" href="tiangong-preview.gif" download>下载预览 GIF</a>
+    <a class="btn" href="tiangong-2k.jpg" download>下载 2K 静帧</a>
+    <span class="meta">24 s · 30 fps · H.264 High · bt709</span>
+  </div>
+
+  <h2>参数锁定</h2>
+  <div class="grid">
+    <div class="card"><div class="k">唯一视角</div><div class="v">阙下侧望·门中重门<small>超广角低机位仰视变体</small></div></div>
+    <div class="card"><div class="k">核心巨构</div><div class="v">朱红天门<small>单一统治层级，双檐铜钉大门</small></div></div>
+    <div class="card"><div class="k">相机</div><div class="v">贴地 40 cm · 14 mm<small>上仰 15°，中央单点透视</small></div></div>
+    <div class="card"><div class="k">人物</div><div class="v">1 名白衣旅人 · 0.9%<small>背影 40°，小于门上的一颗门钉</small></div></div>
+    <div class="card"><div class="k">前景门槛</div><div class="v">玉阶下沿 8–11%<small>硬上限 16%，未膨胀成广场</small></div></div>
+    <div class="card"><div class="k">光色</div><div class="v">单右侧低位晨光<small>左冷右暖，近暖远冷，光束穿云隙</small></div></div>
+  </div>
+
+  <h2 style="margin-top:40px">运镜决策</h2>
+  <div class="grid">
+    <div class="card"><div class="k">唯一运镜</div><div class="v">完全锁镜 0%<small>不推、不摇、不移、不切镜</small></div></div>
+    <div class="card"><div class="k">选择理由</div><div class="v">保护前景比例<small>约 10% 高石板台，任何前推都会放大地基成广场并引起巨门尺度漂移</small></div></div>
+    <div class="card"><div class="k">运动来源</div><div class="v">云海 + 光<small>远云慢、近云快；阶梯脚下云溢流恒为向下</small></div></div>
+    <div class="card"><div class="k">建筑锁定</div><div class="v">帧差 ≤ 4/255<small>天门、巨柱、阶梯、前景台仅剩颗粒抖动</small></div></div>
+  </div>
+
+  <div class="shot">
+    <img src="tiangong-2k.jpg" alt="九天之门 2K 静帧：云海之上的朱红天门与白玉阶梯，白衣旅人极小">
+    <div class="cap">2K 静态母版 · 2560×1440 —— 同时是视频首帧的构图合同</div>
+  </div>
+
+  <footer>
+    <b>2K 说明</b>：生图能力原生输出 1376×768，2K 由 LANCZOS + 双半径反锐化 + 轻颗粒提升而来，不虚构细节。<br>
+    <b>可复现</b>：<code>output/README.md</code>（参数锁定与三轮审计） · <code>output/tiangong-i2v-prompt.md</code>（锁镜提示词与负面约束） · <code>output/render.py</code>（运动场脚本）。<br>
+    <b>注意</b>：本预览由沙箱临时服务提供，会话结束后失效；永久留存请走 Release 附件或压缩入库。
+  </footer>
+
+</div>
+<script>
+function pick(v){
+  const p = document.getElementById('player'), s = document.getElementById('src');
+  const t = p.currentTime, playing = !p.paused;
+  if (v === '2k') { s.src = 'tiangong-2k.mp4'; } else { s.src = 'tiangong-1080p.mp4'; }
+  document.getElementById('b2k').setAttribute('aria-pressed', v === '2k');
+  document.getElementById('b1080').setAttribute('aria-pressed', v === '1080');
+  p.load();
+  p.addEventListener('loadedmetadata', function once(){
+    p.currentTime = Math.min(t, p.duration || 0);
+    if (playing) p.play().catch(()=>{});
+    p.removeEventListener('loadedmetadata', once);
+  });
+}
+</script>
+</body>
+</html>

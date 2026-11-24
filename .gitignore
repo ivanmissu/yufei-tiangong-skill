@@ -2,3 +2,10 @@
 Thumbs.db
 *.zip
 *.tmp
+
+# generated deliverables (large binaries) — see output/README.md
+output/*.mp4
+output/*.gif
+output/watch/tiangong-*.mp4
+output/watch/tiangong-*.gif
+output/watch/tiangong-*.jpg
